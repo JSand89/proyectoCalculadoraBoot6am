@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+}
+p{
+    color: red;
+}
+.calculadora{
+    background-color: gray;
+}
+.pantalla{
+    background-color: aqua;
+}
+.pantalla p{
+    color: blue;
+}
