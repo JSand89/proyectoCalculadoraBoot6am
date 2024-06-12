@@ -1,15 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 h1 {
     color: red;
 }
 p{
     color: red;
+    font-family: "Nunito Sans";
+}
+button{
+    background-color: red;
+}
+ul{
+    list-style: none;
 }
 .calculadora{
     background-color: gray;
+    width: 200px;
+    
 }
 .pantalla{
     background-color: aqua;
+    border: 15px;
+    border-color: red;
 }
 .pantalla p{
     color: blue;
+}
+.teclado{
+    display: flex;
+    display: inline-block;
+}
+.teclado button{
+    background-color: blue;
+    
+    height: 70px;
+
 }
